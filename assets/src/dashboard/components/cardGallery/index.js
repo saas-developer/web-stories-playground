@@ -39,8 +39,8 @@ import {
   MiniCardButton,
 } from './components';
 
-const MAX_WIDTH = 680;
-const ACTIVE_CARD_WIDTH = 330;
+const MAX_WIDTH = 1280;
+const ACTIVE_CARD_WIDTH = 1280;
 const MINI_CARD_WIDTH = 75;
 const CARD_GAP = 15;
 const CARD_WRAPPER_BUFFER = 12;

@@ -116,6 +116,14 @@ function CustomStyles() {
                 margin: auto 0;
               }
 
+              .i-amphtml-story-desktop-one-panel amp-story-page {
+                width:  1000px !important;
+              }
+
+              .ashwin {
+                border: 1px solid red;
+              }
+
               .mask {
                 position: absolute;
                 overflow: hidden;

@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-export const PAGE_RATIO = 2 / 3;
-export const PAGE_WIDTH = 412;
-export const PAGE_HEIGHT = 618;
+export const PAGE_RATIO = 16 / 9; // 2 / 3;
+export const PAGE_WIDTH = 1280; // 412;
+export const PAGE_HEIGHT = 720; // 618;
 
-export const ALLOWED_EDITOR_PAGE_WIDTHS = [412, 268, 223];
+export const ALLOWED_EDITOR_PAGE_WIDTHS = [1280, 412, 268, 223];
 
-export const FULLBLEED_RATIO = 9 / 16;
+export const FULLBLEED_RATIO = 16 / 9; // 9 / 16;
 
 export const FULLBLEED_HEIGHT = PAGE_WIDTH / FULLBLEED_RATIO;
 export const DANGER_ZONE_HEIGHT = (FULLBLEED_HEIGHT - PAGE_HEIGHT) / 2;
